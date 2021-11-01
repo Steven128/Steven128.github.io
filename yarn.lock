@@ -733,7 +733,7 @@ entities@1.0:
   resolved "https://registry.npmmirror.com/entities/download/entities-1.0.0.tgz#b2987aa3821347fcde642b24fdfc9e4fb712bf26"
   integrity sha1-sph6o4ITR/zeZCsk/fyeT7cSvyY=
 
-entities@^1.1.1, entities@~1.1.1:
+entities@^1.1.1, entities@^1.1.2, entities@~1.1.1:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/entities/download/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
   integrity sha1-vfpzUplmTfr9NFKe1PhSKidf6lY=
@@ -1077,12 +1077,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-"hexo-asset-image@ github:Steven128/hexo-asset-image":
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/hexo-asset-image/download/hexo-asset-image-0.0.3.tgz#88e9515673812f0106d73fe0acedd944f8a8a651"
-  integrity sha1-iOlRVnOBLwEG1z/grO3ZRPioplE=
+"hexo-asset-image@github:Steven1/hexo-asset-image":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-asset-image/-/hexo-asset-image-1.0.0.tgz#f229ad28b071a32b1d5b121f929a296e714fd24a"
+  integrity sha512-jkuUJNPRMH6v7HqzP2BAwEZavMzVxNWhl8jZl9BmFYB22/aq2+zixGIhV4vedI9cLPydjn9DfII41/MMXtzJTA==
   dependencies:
     cheerio "^0.19.0"
+    entities "^1.1.2"
 
 hexo-bunyan@^1.0.0:
   version "1.0.0"
